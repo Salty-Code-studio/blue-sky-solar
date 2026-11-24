@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Blue Sky Solar Site Audit</title>
+<link rel="icon" href="../img/BSS-Brandmark-FC.png">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#062f4c;--sky:#1673d4;--ink:#0c1a26;--muted:#5a6773;--line:rgba(12,26,38,.12);--paper:#fbf9f6;--red:#c2412d;--green:#1f7a4d}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Figtree,system-ui,sans-serif;background:var(--paper);color:var(--ink);font-size:17px;line-height:1.6}
+.wrap{max-width:980px;margin:0 auto;padding:0 20px}
+h1,h2,h3{font-family:Outfit,sans-serif;letter-spacing:-.02em;line-height:1.08;color:var(--navy)}
+header{padding:72px 0 48px;border-bottom:1px solid var(--line)}
+h1{font-size:clamp(40px,6vw,68px)}
+.lead{font-size:20px;color:var(--muted);margin-top:20px;max-width:680px}
+.cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+.btn{display:inline-block;padding:14px 22px;border-radius:999px;font-weight:600;text-decoration:none}
+.btn-sky{background:var(--sky);color:#fff}
+.btn-ghost{border:1px solid var(--line);color:var(--ink);background:#fff}
+.assets{display:grid;grid-template-columns:repeat(4,1fr);border-bottom:1px solid var(--line)}
+.assets div{padding:28px 16px 28px 0}
+.assets b{font-family:Outfit;font-size:40px;display:block;color:var(--navy);line-height:1}
+.assets span{color:var(--muted);font-size:15px}
+section{padding:64px 0;border-bottom:1px solid var(--line)}
+h2{font-size:clamp(28px,3.6vw,40px);margin-bottom:12px}
+.verdict{font-size:19px;color:var(--muted);max-width:720px}
+figure{margin:28px 0 8px;border:1px solid var(--line);border-radius:14px;overflow:hidden;background:#fff}
+figure img{display:block;width:100%;height:auto}
+figcaption{font-size:14px;color:var(--muted);padding:12px 16px;border-top:1px solid var(--line)}
+.fix{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:24px}
+.fix div{border:1px solid var(--line);border-radius:14px;padding:20px 22px;background:#fff}
+.fix h3{font-size:18px;margin-bottom:8px}
+.fix .now h3{color:var(--red)}
+.fix .new h3{color:var(--green)}
+.fix p,.fix li{color:var(--muted);font-size:16px}
+.fix ul{padding-left:18px}
+.mob{display:grid;grid-template-columns:260px 1fr;gap:32px;align-items:start}
+.mob figure{margin:0}
+table{width:100%;border-collapse:collapse;margin-top:24px;font-size:16px}
+td,th{text-align:left;padding:14px 12px 14px 0;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-family:Outfit;font-weight:600;color:var(--navy)}
+td:first-child{white-space:nowrap;font-weight:600}
+.tag{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:999px;background:#fbe9e5;color:var(--red)}
+.tag.mid{background:#fff3dc;color:#9a6200}
+footer{padding:56px 0 80px;color:var(--muted);font-size:15px}
+@media(max-width:720px){.assets{grid-template-columns:1fr 1fr}.fix,.mob{grid-template-columns:1fr}.mob figure{max-width:260px}td:first-child{white-space:normal}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>A 12-person company with a site that looks like a side project.</h1>
+    <p class="lead">Blue Sky Solar has the best proof on the island: thousands of panels, a full crew, a warehouse and a professional photo shoot. The current site hides almost all of it. Here is what we found, and what the new version does instead.</p>
+    <div class="cta"><a class="btn btn-sky" href="../">See the new version</a><a class="btn btn-ghost" href="https://blueskysolarbonaire.com/">Current site</a></div>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="assets">
+    <div><b>8,788</b><span>panels installed</span></div>
+    <div><b>1,088</b><span>batteries connected</span></div>
+    <div><b>46</b><span>reviews, all five stars</span></div>
+    <div><b>12</b><span>people in the team photo</span></div>
+  </div>
+</div>
+
+<div class="wrap">
+<section>
+  <h2>The first screen says nothing but the name.</h2>
+  <p class="verdict">Visitors see “BLUE SKY SOLAR BONAIRE” over a YouTube video. No promise, no button, no proof. On a phone the name itself is cut off.</p>
+  <figure><img src="now-hero.webp" alt="Current homepage hero" loading="lazy"><figcaption>Current homepage, desktop</figcaption></figure>
+  <div class="mob">
+    <figure><img src="now-mobile.webp" alt="Current homepage on a phone" loading="lazy"><figcaption>Current homepage, iPhone width</figcaption></figure>
+    <div class="fix" style="grid-template-columns:1fr;margin-top:0">
+      <div class="now"><h3>Now</h3><ul><li>Headline reads “BLUE SKY SOLAR BON”, cut off at the edge</li><li>Video plays from YouTube, with their logo in the corner</li><li>Only call to action is a small “Go Solar” in the menu</li><li>reCAPTCHA badge covers the content</li></ul></div>
+      <div class="new"><h3>New</h3><ul><li>Headline is the outcome: “Your own power plant. Built in two days.”</li><li>Free roof design and WhatsApp buttons on the first screen</li><li>5.0 from 46 reviews right under the buttons</li><li>Real crew photo, no third party player</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>The size of the business is buried.</h2>
+  <p class="verdict">8,788 panels and 1,088 batteries is a serious number for Bonaire. Right now it sits halfway down the page in small type, under a heading that says “We love solar”. The team photo, with forklift, truck and the whole crew, is darkened behind a text box and followed by an empty blue band.</p>
+  <figure><img src="now-team.webp" alt="Current team section with empty blue band" loading="lazy"><figcaption>Team section: darkened photo, then an empty block</figcaption></figure>
+  <figure><img src="now-stats.webp" alt="Current stats counters" loading="lazy"><figcaption>The best proof on the site, in a different font, mid-page</figcaption></figure>
+  <div class="fix">
+    <div class="now"><h3>Now</h3><p>Proof is decoration. The scale of the company has to be discovered.</p></div>
+    <div class="new"><h3>New</h3><p>The crew photo is the hero, full colour. The numbers sit right under it in large type. A full crew roster shows there are real people behind every install.</p></div>
+  </div>
+</section>
+
+<section>
+  <h2>Clip-art icons instead of their own installs.</h2>
+  <p class="verdict">They paid for a professional shoot of their technical rooms, inverters and roofs. The product section shows orange clip-art instead. Orange is not even their colour: the sign, the truck and the shirts are navy and blue.</p>
+  <figure><img src="now-products.webp" alt="Current product icons" loading="lazy"><figcaption>Six products, six icons, no real work shown</figcaption></figure>
+  <div class="fix">
+    <div class="now"><h3>Now</h3><p>Every system gets one generic line. No payback, no “who is this for”.</p></div>
+    <div class="new"><h3>New</h3><p>Each system has a real install photo, who it is for, and the facts buyers ask first: payback years, blackout proof, litres of hot water.</p></div>
+  </div>
+</section>
+
+<section>
+  <h2>Their best sales copy is on a page nobody finds.</h2>
+  <p class="verdict">Ferry went from $350 a month to a few dollars. Andy’s 87 kWh a day home now pulls zero from the grid. Rob paid more than the other quotes and says it was worth it. These stories live on a “Customer experiences” page that the main menu does not link to.</p>
+  <div class="fix">
+    <div class="now"><h3>Now</h3><p>Reviews appear as a long Trustindex widget repeated at the bottom of every page.</p></div>
+    <div class="new"><h3>New</h3><p>The outcome is the headline (“$350 a month. Now a few dollars.”) with the customer quote small underneath. Three short review quotes, including the one about paying more for quality.</p></div>
+  </div>
+</section>
+
+<section>
+  <h2>Small things that cost trust.</h2>
+  <table>
+    <tr><th>Issue</th><th>Where</th><th></th></tr>
+    <tr><td>Wrong email address</td><td>FAQ says info@blueskysolar.com. Every other page says info@blueskysolarbonaire.com. Mail to the FAQ address may never arrive.</td><td><span class="tag">fix now</span></td></tr>
+    <tr><td>Two addresses</td><td>The site says Kaya Industria Pariba 50. The warehouse sign in their own video says Kaya Atom 12.</td><td><span class="tag">fix now</span></td></tr>
+    <tr><td>Typos in headings</td><td>“FULL INDEPENDANCE”, “CHARGING WIHT SOLAR POWER”, “PHYSICAL ADRESS”</td><td><span class="tag mid">quick</span></td></tr>
+    <tr><td>Unfinished theme</td><td>Elementor default colours were never replaced, and three unrelated fonts are loaded (Poppins, Roboto, Roboto Slab).</td><td><span class="tag mid">quick</span></td></tr>
+    <tr><td>One blog post</td><td>The homepage “From our blog” shows a single post from May 2025, title cut off at “for your”.</td><td><span class="tag mid">quick</span></td></tr>
+    <tr><td>Thin quote form</td><td>Name and phone only. Remco calls back knowing nothing about the job.</td><td><span class="tag mid">quick</span></td></tr>
+  </table>
+  <div class="fix">
+    <div class="new" style="grid-column:1/-1"><h3>New quote form</h3><p>Asks what they want to fix (bill, blackouts, off-grid), the building type, the current WEB bill and the neighbourhood. Remco calls back already knowing the size of the job. WhatsApp is one tap away on every screen.</p></div>
+  </div>
+</section>
+</div>
+
+<footer><div class="wrap">Audit by Salty Code Studio, November 2026. Based on blueskysolarbonaire.com as published on 22 November 2026.</div></footer>
+</body>
+</html>
