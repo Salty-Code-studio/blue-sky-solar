@@ -253,3 +253,4 @@ nav.main a.on{color:var(--navy-deep);font-weight:600}
 .cta-band .hero-actions{justify-content:flex-end}
 @media (max-width:1020px){.page-hero .wrap,.cta-band{grid-template-columns:1fr;gap:28px}.cta-band .hero-actions{justify-content:flex-start}}
 @media (max-width:640px){.page-hero{padding:40px 0 40px}.wide-photo{aspect-ratio:4/3;border-radius:16px}.cta-band{padding:40px 24px;border-radius:16px}}
+.mobile-nav a.on{color:var(--sky)}
