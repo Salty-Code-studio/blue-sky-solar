@@ -20,3 +20,4 @@ const qf=document.getElementById('qform');if(qf)qf.addEventListener('submit',e=>
   f.classList.add('done')});
 
 const here=location.pathname.split('/').pop()||'index.html';document.querySelectorAll('nav.main a,.mobile-nav a').forEach(a=>{if(a.getAttribute('href')===here)a.classList.add('on')});
+if(/-bonaire\.html$/.test(here))document.querySelectorAll('nav.main a[href="systems.html"],.mobile-nav a[href="systems.html"]').forEach(a=>a.classList.add('on'));
