@@ -97,7 +97,7 @@ SYSTEMS["offgrid"] = dict(
     fit_h="Who off-grid fits.",
     fit=["Your site is remote and the grid is far away or not there.",
          "You want full independence from WEB, its bill and its outages.",
-         "You are ready to size the system to your real use. One customer's home uses 87 kWh a day. The design has 49 panels producing about 100 kWh a day, and grid use came down to 0.",
+         "You are ready to size the system to your real use. We size the panels and batteries around how much you use each day.",
          "You have space for a battery room. Mario on our crew builds them."],
     facts=[("Payback", "Usually 4 to 5 years"), ("Grid use", "0 kWh"), ("Battery", "Runs everything"),
            ("Mounting", "Roof or ground frame"), ("Roofs", "Sloped, flat, tile, corrugated"), ("Install", "Typically two days")],
