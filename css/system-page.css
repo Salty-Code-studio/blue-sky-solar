@@ -103,3 +103,4 @@
   .other-body span{font-size:14px}
   .brands{gap:12px 24px}
 }
+@media (max-width:640px){.flow{display:none}}

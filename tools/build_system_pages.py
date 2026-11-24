@@ -76,8 +76,8 @@ SYSTEMS["offgrid"] = dict(
     title="Off-Grid Solar on Bonaire | Blue Sky Solar",
     desc="Off-grid solar on Bonaire for remote sites and full independence. Panels charge batteries that power your whole home. Free roof design from a local crew.",
     service="Off-grid solar and battery systems",
-    photo="ferry-roof", photo_alt="Black solar panels on a tiled roof",
-    photo2="ferry-shed", photo2_alt="Battery room of an off-grid system",
+    photo="install", photo_alt="Blue Sky Solar technician wiring Victron inverters",
+    photo2="techroom", photo2_alt="Technical room with Victron inverters and EG4 batteries",
     h1="Off-grid solar on Bonaire.", h1b="Your home runs on its own.",
     lead="No grid line and no WEB bill. Your panels charge your batteries and the batteries power everything.",
     wa="Hi Blue Sky, I would like an off-grid solar system on Bonaire.",
@@ -93,7 +93,7 @@ SYSTEMS["offgrid"] = dict(
     how_intro="Off-grid means the system is the whole supply. It has to be sized to how you really live.",
     how=[("Panels charge the batteries", "The panels sit on the roof, or on a ground frame if the roof is not the right one. All that sun goes into storage."),
          ("The batteries run everything", "Your home draws from the battery bank. We design the bank around your daily use."),
-         ("Nothing comes from the grid", "There is no WEB line to lean on. That is why the design drawing comes before the quote.")],
+         ("Nothing comes from the grid", "There is no WEB line to lean on. That is why the design drawing comes with the quote.")],
     fit_h="Who off-grid fits.",
     fit=["Your site is remote and the grid is far away or not there.",
          "You want full independence from WEB, its bill and its outages.",
@@ -107,7 +107,7 @@ SYSTEMS["offgrid"] = dict(
         ("Salt air", "Salt air is hard on equipment. Every system we build has to handle it."),
         ("Sun", "Over 3,000 sunshine hours a year are the fuel for the whole system."),
         ("WEB outages", "You have no WEB line to lose. Outages stop being your problem.")],
-    proc_note=["Because there is no grid backup, the drawing is checked against your real daily use.",
+    proc_note=["The design drawing comes with your quote. We size it around how much you use each day.",
                "Typical install takes two days. Battery room work is done by our own crew.",
                "Remote monitoring and service help when the site is far from town."],
     proof=dict(big="Two months in. Every kind of weather.",
@@ -116,7 +116,7 @@ SYSTEMS["offgrid"] = dict(
                extra="", extra_cite=""),
     faq=[("Can a whole home run off-grid on Bonaire?", "Yes. Off-grid means fully independent of the grid. The batteries power everything."),
          ("How long does off-grid take to pay back?", "Usually 4 to 5 years, the same range as a hybrid system."),
-         ("What if my roof is not suitable?", "We can build a ground frame. One customer built a frame at the back of the property for 32 panels and put 17 more on the garage and pool shade roof."),
+         ("What if my roof is not suitable?", "Panels can also go on a ground frame or another structure on your property. The drone photo shows us the options."),
          ("How does it handle bad weather?", "One customer wrote that his fully off-grid system performed exceptionally well under all weather conditions after two months."),
          ("Can you watch an off-grid system for me?", "We set up the monitoring app with you before we leave. We also offer remote monitoring and service for remote sites and vacation homes."),
          ("What does an off-grid system cost?", COST)],
@@ -164,19 +164,19 @@ SYSTEMS["gridtied"] = dict(
                "The app shows what the panels produce while you are at work or on the beach."],
     proof=dict(big="A date. A price. Then delivered.",
                quote="“It’s so refreshing to find a company on Bonaire that sets a date, a price and then delivers what they promise.”",
-               cite="Rob Wiens, October 2026. Two houses on one property, installed in a day and a half. The yard was put back like it was never disrupted.",
+               cite="Rob Wiens, October 2026, on working with our crew.",
                extra="", extra_cite=""),
     faq=[("Does grid tied solar work in a blackout?", "No. A grid tied system gives no backup during outages. If you want power in an outage, choose hybrid."),
          ("How long does grid tied take to pay back?", "Around 2 years. It is the fastest payback of our systems."),
          ("Why choose grid tied over hybrid?", "Grid tied is the lowest cost way to cut the bill. Hybrid adds a battery and outage power, and pays back in about 4 to 5 years."),
          ("Do I need a battery?", "No. Solar works during the day and the grid supplies the rest."),
-         ("How long does the install take?", "Typically two days. One customer's two-house property was done in a day and a half."),
+         ("How long does the install take?", "Typically two days on site."),
          ("What does a grid tied system cost?", COST)],
     cta_h="Smaller bill. Quicker payback.", cta_p="Get a free drone photo and design drawing. You see every panel before you sign.",
 )
 
 SYSTEMS["heater"] = dict(
-    slug="solar-water-heater-bonaire", name="Solar water heater", goal="bill",
+    slug="solar-water-heater-bonaire", name="Solar water heater", goal="", proc_titles=["Free advice at your place", "Our own crew installs", "Hot water from the sun"],
     title="Solar Water Heater on Bonaire | Blue Sky Solar",
     desc="Sunpad solar water heater on Bonaire. A 150 litre tank heats to 85°C and gives up to 380 litres at 40°C, with no electricity needed. Ask for a free quote.",
     service="Solar water heater installation",
@@ -210,12 +210,12 @@ SYSTEMS["heater"] = dict(
         ("Salt air", "Salt air is part of life on the coast. Every system we install has to handle it."),
         ("Sun", "Over 3,000 sunshine hours a year. The Sunpad also works on cloudy days."),
         ("WEB outages", "No electricity needed, so an outage does not stop the Sunpad from heating.")],
-    proc_note=["We fly the roof and show you where the Sunpad goes on the drawing.",
-               "Our own crew installs it. Typical installs take about two days.",
+    proc_note=["We look at your roof and your hot water use, and advise where the Sunpad goes.",
+               "Our own crew installs it.",
                "We walk you through how it works before we leave."],
     proof=dict(big="Rated 5.0 from 46 reviews.",
                quote="“Doen wat ze beloven. Vakmensen die gewoon hun werk doen.”",
-               cite="Ruben van der Ploeg, July 2026. In English: they do what they promise, and they are skilled people who simply do their work.",
+               cite="Ruben van der Ploeg, July 2026. In English: they do what they promise. Tradespeople who simply do their job.",
                extra="", extra_cite=""),
     faq=[("How much hot water does a Sunpad give?", "The Sunpad has a 150 litre tank that heats to 85°C. It gives you up to 380 litres of water at 40°C."),
          ("Does a solar water heater need electricity?", "No. The Sunpad needs no electricity."),
@@ -227,7 +227,7 @@ SYSTEMS["heater"] = dict(
 )
 
 SYSTEMS["ev"] = dict(
-    slug="ev-charging-bonaire", name="EV charging", goal="bill",
+    slug="ev-charging-bonaire", name="EV charging", goal="",
     title="EV Charging on Bonaire, Solar Powered | Blue Sky Solar",
     desc="EV charging on Bonaire at home, at your business or at public locations, powered by solar. Own install crew and a free consultation. Ask for your quote.",
     service="Solar powered EV charger installation",
@@ -268,18 +268,18 @@ SYSTEMS["ev"] = dict(
     proof=dict(big="Rated 5.0 from 46 reviews.",
                quote="",
                cite="",
-               extra="Bonaire Wild Bird Rehab, July 2026, wrote in Dutch that they were impressed by the team. The installation looks tight and clear, and the team spirit is inspiring.", extra_cite=""),
+               extra="Reviews keep mentioning the same things: dates that hold, tidy installs and a crew that enjoys the work.", extra_cite=""),
     faq=[("Where can you install an EV charger?", "At home, at your business or at public locations."),
          ("Is the charger powered by solar?", "Yes. Our EV charging is powered by solar."),
          ("Can I offer charging to guests or customers?", "Yes. A charger at your business or for your guests is something we install."),
-         ("Who installs it?", "Our own crew, not subcontractors. We also set up the monitoring app with you before we leave."),
+         ("Who installs it?", "Our own crew. We also set up the monitoring app with you before we leave."),
          ("Do I need new panels?", "Tell us what you have in your free consultation. We size the solar side around what you want to fix."),
          ("What does EV charging cost?", "It depends on your setup and your goal. We give a free consultation and a custom quote. Material prices move with purchase and transport costs, so ask for the current figure.")],
     cta_h="Charge from your own roof.", cta_p="Tell us where the car parks. We design the solar and the charger together.",
 )
 
 SYSTEMS["commercial"] = dict(
-    slug="commercial-solar-bonaire", name="Commercial and custom solar", goal="bill",
+    slug="commercial-solar-bonaire", name="Commercial and custom solar", goal="",
     title="Commercial Solar on Bonaire | Blue Sky Solar",
     desc="Commercial and custom solar on Bonaire: large facilities, villas, boats and remote sites. Drone design, battery rooms, remote monitoring and local service.",
     service="Commercial and custom solar systems",
@@ -326,7 +326,7 @@ SYSTEMS["commercial"] = dict(
          ("Can you handle a difficult roof?", "Yes. We install on sloped, flat, tile and corrugated sheet roofs, and we can build ground frames and structures."),
          ("Can you look after a site I am not at?", "Yes. We offer remote monitoring and service for vacation homes. We also set up the monitoring app with you before we leave."),
          ("Do you build battery rooms?", "Yes. Mario on our crew builds battery rooms."),
-         ("Who does the work?", "Our own crew. We have electricians, a construction hand and a warehouse team, all on Kaya Industria Pariba."),
+         ("Who does the work?", "Our own crew: electricians, construction and warehouse, working from our base on Kaya Industria Pariba."),
          ("What does a custom system cost?", "It depends on consumption and your goal. We give a free consultation and a custom quote. Material prices move with purchase and transport costs, so ask for the current figure.")],
     cta_h="Bring us the hard roof.", cta_p="Get a free drone photo and design drawing. Remco calls you back within one business day.",
 )
@@ -411,7 +411,7 @@ def build(key, shell):
     assert 140 <= len(s["desc"]) <= 160, (key, len(s["desc"]))
     assert len(s["title"]) <= 62, (key, len(s["title"]))
     wa = "https://wa.me/5997841782?text=" + quote(s["wa"])
-    goal_href = f'contact.html?goal={s["goal"]}#quote'
+    goal_href = f'contact.html?goal={s["goal"]}#quote' if s["goal"] else 'contact.html#quote'
     head, foot = shell["head"], shell["foot"]
     old = 'href="#quote">Free roof design'
     assert old in shell["sticky"]
@@ -427,7 +427,7 @@ def build(key, shell):
     fit = "".join(f"<li>{E(x)}</li>" for x in s["fit"])
     facts = "".join(f"<div><dt>{E(a)}</dt><dd>{E(b)}</dd></div>" for a, b in s["facts"])
     bn = "".join(f'<div class="bn-item"><h3>{E(a)}</h3><p>{E(b)}</p></div>' for a, b in s["bn"])
-    proc_titles = ["Drone photo and design drawing", "Our own crew installs", "Monitoring before we leave"]
+    proc_titles = s.get("proc_titles") or ["Drone photo and design drawing", "Our own crew installs", "Monitoring before we leave"]
     proc = "".join(f'<div class="proc-item rv"><h3>{E(t)}</h3><p>{E(n)}</p></div>' for t, n in zip(proc_titles, s["proc_note"]))
     faq = "".join(f"<details><summary>{E(q)}<i></i></summary><p>{E(a)}</p></details>" for q, a in s["faq"])
     og_img = f'{SITE}/img/{s["photo"]}.jpg'
